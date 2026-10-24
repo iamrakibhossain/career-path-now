@@ -1,0 +1,132 @@
+.Service{
+    background-color: var(--yellow);
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    border-radius: 29px;
+    overflow: hidden;
+}
+
+.Service .left{
+    padding: 40px 0px 80px 80px;
+    position: relative; 
+    flex-shrink: 0;
+}
+
+.circle {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  width: 197px;
+  height: 197px;
+  border-radius: 50%;
+  background: var(--navy);
+}
+
+.Service .left .imgbox{
+    position: relative;
+    width: 462px;
+    height: 474px;
+    background-color: rgba(244, 244, 244, 0.5);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border-radius: 12px;
+
+}
+
+.titleBar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 30px;
+  padding: 0 16px;
+  background: rgba(234, 234, 234, 0.6);
+}
+
+.dot {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+}
+
+.red { background: #ff5f57; }
+.yellow { background: #febc2e; }
+.green { background: #28c840; }
+
+.Service .left .imgbox .imgcontainer{
+    display: grid;
+    grid-template-columns: 151px 223px;
+    grid-template-rows: 203px 176px;
+    gap: 20px;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.Service .left .imgbox .imgcontainer .img1{
+    grid-column: span 2;
+}
+
+.Service .left .imgbox .imgcontainer .img1, .img2, .img3{
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.Service .right{
+    margin: 40px 60px 0 60px;
+}
+
+.Service .right h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.Service .right p{
+    font-size: 16px;
+    margin: 16px 0 20px 0;
+}
+
+.Service .right .iconbox{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 12px;
+}
+
+.Service .right .iconbox .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: var(--white);
+    border-radius: 50%;
+    font-size: 24px;
+    color: var(--navy); 
+}
+
+.Service .right .iconbox p{
+    font-size: 18px;
+}
+
+.Service .right .iconContainer{
+    margin-bottom: 38px;
+}
+
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.reverse .left {
+  padding: 40px 80px 80px 0;
+}
+
+.reverse .right{
+    margin: 40px 60px 80px 60px ;
+}
+
+.reverse .circle {
+  left: -40px;
+}

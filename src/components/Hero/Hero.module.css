@@ -1,0 +1,154 @@
+.Home{
+    display: flex;
+    margin-bottom: 200px;
+}
+
+.heroLeft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 20px;
+}
+
+.heroLeft .heroTxt{
+    width: 90%;
+}
+.heroLeft .heroTxt h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+.heroLeft .heroTxt h1 span{
+    color: var(--yellow);
+}
+
+.heroLeft .heroTxt p{
+    font-size: 18px;
+}
+
+.heroLeft .heroBtn{
+    display: flex;
+    align-items: center;
+}
+
+.heroLeft .heroBtn .playicon{
+    height: 50px;
+    width: 50px;
+    background-color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24px;
+    box-shadow: 2px 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.heroLeft .heroBtn span{
+    margin-left: 12px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.heroLeft .heroBottomImg{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.heroLeft .heroBottomImg .ImgItem1 {
+    height: 50px;
+    width: 50px;
+    background-color: var(--yellow);
+    border-radius: 50%;
+}
+
+.heroLeft .heroBottomImg .ImgItem2, .ImgItem3{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: -20px;
+}
+
+.heroLeft .heroBottomImg p{
+    margin-left: 12px;
+    font-size: 14px;
+}
+
+
+
+.heroRight{
+    width: 50%;
+    position: relative;
+}
+
+.heroRight .yellowBox{
+    background-color: var(--yellow);
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 60px;
+    right: 0%;
+    border-radius: 20px;
+}
+
+.heroRight .heroImg{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+
+}
+
+.heroRight .RightTxtBox{
+    position: absolute;
+    left: -25px;
+    top: 95px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    
+}
+
+.heroRight .RightTxtBox .txt{
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    border-radius: 14px;
+    box-shadow: 2px 4px 30px rgba(0, 0, 0, 0.2);
+    gap: 5px;
+}
+
+.heroRight .RightTxtBox .txt h2{
+
+    font-size: 13px;
+    color: var(--navy);
+    font-weight: bold;
+}
+
+.heroRight .RightTxtBox .txt p{
+    font-size: 11px;
+    color: var(--navy);
+}
+
+.heroRight .RightTxtBox .txt .icon{
+    height: 25px;
+    width: 25px;
+    color: var(--white);
+    background-color: var(--navy);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+.heroRight .RightTxtBox .txt .imageBox{
+    display: flex;
+    z-index: 5;
+}
+
+.heroRight .RightTxtBox .txt .imageBox .img2, .img3, .img4{
+    margin-left: -5px;
+}
