@@ -152,3 +152,12 @@
 .heroRight .RightTxtBox .txt .imageBox .img2, .img3, .img4{
     margin-left: -5px;
 }
+
+.heroRight .imgClip{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 500px;
+    height: 460px;
+    clip-path: inset(-300px -100px 0 -100px);
+}
